@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
       const newUsername = document.getElementById("newUsername").value;
       const newPassword = document.getElementById("newPassword").value;
 
-      // Save registration data to localStorage
+      
       localStorage.setItem("registeredUsername", newUsername);
       localStorage.setItem("registeredPassword", newPassword);
 
       alert("register successfully")
 
-      // ... Additional registration logic ...
+     
     });
   }
 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const username = document.getElementById("username").value;
       const password = document.getElementById("password").value;
 
-      // Retrieve stored registration data from localStorage
+      
       const registeredUsername = localStorage.getItem("registeredUsername");
       const registeredPassword = localStorage.getItem("registeredPassword");
 
